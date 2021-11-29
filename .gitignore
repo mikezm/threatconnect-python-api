@@ -1,0 +1,4 @@
+app/config.py
+venv
+.idea
+.DS_STORE
