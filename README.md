@@ -1,6 +1,11 @@
 # Overview
 -----------
-The following Python script is an example that can be used to test connectivity to ThreatConnect’s API.
+This is an unofficial app built to facilitate API requests to the ThreatConnect platform. Developers looking to build 
+Python apps for the ThreatConnect platform should consider using [TCEX](https://github.com/ThreatConnect-Inc/tcex) as
+the officially supported framework. 
+
+The following Python script is an example that can be used to test connectivity to ThreatConnect’s API
+and simple requests. 
 
 # Setting up the app
 -------
@@ -8,7 +13,7 @@ The following Python script is an example that can be used to test connectivity 
 2. Update the following variables in the `config.py` file:
    - API_ID
    - API_SECRET
-   - API_HOST
+   - API_HOST _(without `/api` in the URL.)_
    - DEFAULT_OWNER
 
 # Testing API connectivity
